@@ -1,0 +1,28 @@
+.cart{
+    background-color: #fff;
+    width:250px;
+    padding:10px;
+    position: relative;
+    box-shadow: 10px 10px 30px #ccc;
+
+}
+.cart.img{
+    width:100%;
+}
+.cart .top-price{
+    background-color: indianred;
+    color:azure;
+    display:inline-block;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position:absolute;
+    left: 0;
+
+}
+.bottom_price{
+    color:red
+}
+.del{
+  text-decoration: line-through;
+
+}
